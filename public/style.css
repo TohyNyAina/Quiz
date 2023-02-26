@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.quiz{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+}
+.commencer{
+     background-color:#f8938f ;
+       color: white;
+        padding: 24px;
+       text-decoration: none;
+       border: 1px solid white;
+       font-size: 40px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       box-shadow: 5px 3px #152846;
+}
+
+.commencer:hover{
+       transition: 0.3s;
+       background-color: white;
+       color: #f98068;
+       border: 1px solid #f8938f;
+       
+}
+
+.img2{
+   width: 400px;
+
+}
+
+.win-container{
+
+       display: flex;
+       align-items: center;
+       margin-left: 70px;
+}
